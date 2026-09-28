@@ -1,0 +1,7 @@
+numpy>=1.24.0
+opencv-python>=4.8.0
+mss>=7.0.1
+termcolor>=2.2.0
+hidapi>=0.14.0
+keyboard>=0.13.5
+pywin32>=306

@@ -1,0 +1,43 @@
+{
+    "// INVINCIBLX777 v2.0 — Settings": "Edit values below and restart.",
+    "screen": {
+        "auto_detect": true,
+        "width": 1920,
+        "height": 1080,
+        "// note": "If auto_detect is true, width/height are ignored."
+    },
+    "capture": {
+        "fov": 100,
+        "// fov": "Grab zone size in pixels (centered on screen). Larger = wider scan, slower."
+    },
+    "aimbot": {
+        "enabled": true,
+        "activation_key": "right_mouse",
+        "speed": 0.25,
+        "// speed": "Mouse movement multiplier. Lower = smoother, higher = snappier. Range: 0.05 - 1.0",
+        "headshot_offset": 9,
+        "// headshot_offset": "Pixels from top of detected target to aim at. Higher = lower on body.",
+        "min_pixels": 4,
+        "// min_pixels": "Minimum matching pixels to count as a valid target."
+    },
+    "triggerbot": {
+        "enabled": true,
+        "activation_key": "left_alt",
+        "threshold_x": 4,
+        "threshold_y": 10,
+        "// threshold": "How close the crosshair must be to the target center to fire (pixels)."
+    },
+    "color": {
+        "lower_hue": 140,
+        "upper_hue": 150,
+        "lower_saturation": 110,
+        "upper_saturation": 195,
+        "lower_value": 150,
+        "upper_value": 255,
+        "// color": "HSV range for target detection. Purple/Magenta outlines by default."
+    },
+    "toggle_key": "F1",
+    "// toggle_key": "Key to toggle the aimbot ON/OFF. Use keyboard library key names.",
+    "ui_refresh_rate": 60,
+    "// ui_refresh_rate": "Console status line refresh rate in Hz."
+}
